@@ -1,0 +1,19 @@
+header {background-color: midnightblue;
+     color: mintcream;
+     font-family: arial;
+     font-size: xx-large;
+     padding: 30px;}
+
+p {font-family: arial;
+    font-size: medium;
+    text-align: center;
+    }
+figure{ margin: 0 auto;
+		padding:10px;
+        border: 2px solid #363841;
+        text-align: center;
+		padding-bottom:30px; }
+
+.Altura {width: 300px;
+        height: 300px;} 
+
