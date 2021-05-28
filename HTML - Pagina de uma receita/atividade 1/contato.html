@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Contato - Mundo das Receitas</title>
+    <link rel="icon" href="imagens/bolo.jpg" type="image/ico" />
+
+</head>
+<body>
+    <nav style="text-align: center;">
+        <a href="index.html">HOME</a> ||
+        <a href="receita.html">RECEITA</a> ||
+        <a href="video.html">VÍDEO</a> ||
+        <a href="contato.html">CONTATO</a>
+    </nav>
+    </br>
+    <article style="text-align: center;">
+        <h3>CONTATO</h3>
+        <p>Entre em contato conosco!</p>
+    </article>
+    <form method="GET" action="localhost">
+        <fieldset>
+            <legend>Seus dados: </legend>
+            <label for="txtNome" > Nome: </label> 
+            <input type="text" name="txtNome" id="txtNome"
+                maxlength="80" size="50" autofocus="autofocus"
+                placeholder="Digite seu Nome completo"/> <br/>
+            <label for="txtSenha" > Senha: </label> 
+            <input type="password" name="txtSenha" id="txtSenha"
+                maxlength="80" size="50" autofocus="autofocus"
+                placeholder="Sua senha deve conter numeros, letras e *" /> <br/>
+            <label for="txtEmail">E-mail: </label> 
+            <input type="email" name="txtEmail"
+                maxlength="80" size="50" autofocus="autofocus"
+                placeholder="Digite seu E-mail" 
+                oninvalid="alert('E-mail incorreto!')"
+                required="required"/> <br/>
+            <label for="txtCelular">Celular: </label>
+            <input type="text" name="txtCelular"
+                maxlength="80" size="50" autofocus="autofocus"
+                placeholder="Digite o seu celular contendo o seu DDD e o 9 em sequência" />
+        </fieldset> </br> </br>
+        <fieldset>
+            <legend>Sugestões: </legend>
+            <label for="txtSugestoes">Caso haja sugestões preencha o campo abaixo.</label> </br>
+            <textarea cols="50" rows="10"
+                      name="txtSugestoes" id="txtSugestoes"
+                      placeholder="Informe suas sugestões"></textarea>
+        </fieldset>
+        </br>
+        <input type="submit" value="Salvar" />
+        <button type="reset"> Apagar </button>
+
+    </form>
+</body>
+</html>
